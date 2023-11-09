@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+@font-face {
+    font-family: 'Berlin Sans FB Demi Bold';
+    src: url(Berlin\ Sans\ FB\ Demi\ Bold.ttf);
+}
+
+header,
+.logoprincipal {
+    display: flex;
+    align-items: center;
+}
+
+.logoprincipal {
+    width: 90px;
+    position: relative;
+    left: 4%;
+    margin-top: 3%;
+}
+
+/* texts nav */
+a {
+    text-decoration: none;
+    color: #5c8299;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+
+}
+
+/* barre navigation */
+nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: right;
+    margin-left: 50%;
+    margin-right: 5%;
+    color: #5c8299;
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-size: 120%;
+    text-decoration-color: none;
+    text-decoration-line: none;
+    cursor: pointer;
+    border-bottom: #5c8299;
+}
+
+
+
+
+/* image */
+.bresil {
+    width: 15%;
+    margin-left: 7%;
+    margin-top: 4%;
+    align-items: center;
+    justify-content: center;
+}
+
+#ACS {
+    color: #5c8299;
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-size: 4em;
+    position: relative;
+}
+
+#ACS:hover {
+    color: initial;
+    transition: color 0.s;
+    text-shadow: #0C1851;
+}
+
+/* about */
+.salut {
+    color: #5c8299;
+    font-family: 'Actor', sans-serif;
+    font-size: 4em;
+    position: relative;
+    right: 150px;
+}
+
+.logoname {
+    position: relative;
+    margin-top: 3%;
+    width: 90px;
+    margin-left: 4%;
+}
+
+p.recherche {
+    color: #696b6d;
+    font-family: 'Actor', sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    margin-top: 1%;
+
+}
+
+.containerabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* photo */
+.ac {
+
+    width: 20%;
+    border-radius: 10%;
+    display: flex;
+    margin-left: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.presentation {
+    display: flex;
+    color: #696b6d;
+    font-family: 'Helvetica';
+    font-size: 21px;
+    position: relative;
+    right: 150px;
+    text-align: justify;
+}
+
+/* contacts */
+
+.contacts {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+table {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #5c8299;
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-size: 200%;
+}
+
+.contactez {
+    font-size: 160%;
+}
+
+.rounded-table {
+
+    padding: 16%;
+    border-radius: 50px;
+    background-color: #dfdfdf;
+}
+
+.underline-link {
+    text-decoration: underline;
+}
+
+/* pictos contacts*/
+.linkedin-image {
+    width: 45px;
+}
+
+.email-image {
+    width: 50px;
+}
+
+.portable-image {
+    width: 40px;
+}
+
+/* table projets  */
+.table-spacing {
+    margin: 20px;
+    position: relative;
+    
+}
+
+.table-spacing td,
+.table-spacing th {
+    padding: 15px;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.cell-padding {
+    padding: 10px;
+    width: 33.33%;
+}
+
+.tableimages {
+    margin-top: 30%;
+    position: relative;
+}
+
+.image-small {
+    max-width: 380px;
+    height: auto;
+}
+
+/* projet 1 */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgrubber {
+    position: relative;
+    margin-top: 3%;
+    left: 48%;
+    width: 40%;
+    border-radius: 5%;
+}
+
+.titrerubber {
+    color: #D6477E;
+    font-family: 'Actor', sans-serif;
+    margin-top: 0%;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.description1 {
+    color: #696b6d;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-top: 20%;
+    right: 120%;
+    font-size: 150%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoprincipal {
+        margin: 4% auto 0;
+        width: 60px;
+        position: static;
+        left: auto;
+        margin-top: 4%;
+        margin: 0 auto;
+    }
+
+    nav {
+        text-align: center;
+        display: block;
+        margin: 4% 0;
+    }
+
+    nav a {
+        margin: 10px 0;
+        padding: 8px 15px;
+
+        nav a:not(:last-child) {
+            margin-right: 10px;
+        }
+
+    }
+
+
+    .bresil {
+        position: relative;
+        left: 10%;
+        width: 30%;
+        margin: 4%;
+    }
+
+    #ACS {
+        left: 6%;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .salut {
+
+        font-size: 50px;
+        position: relative;
+        right: 90%;
+    }
+
+    .image-small {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .ac {
+
+        width: 40%;
+        border-radius: 10%;
+        display: flex;
+        margin-left: 40%;
+        position: relative;
+        top: 10px;
+        margin-top: 0%;
+    }
+
+    .presentation {
+        padding: 3%;
+        top: 350px;
+        font-size: 15px;
+
+    }
+
+    p.recherche {
+        left: 10%;
+        top: 30px;
+        font-size: 15px;
+
+
+    }
+}
